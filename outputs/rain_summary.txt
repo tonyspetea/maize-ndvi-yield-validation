@@ -1,0 +1,14 @@
+Seasons used: 11 (2021L, 2021S, 2022L, 2022S, 2023L, 2023S, 2024L, 2024S, 2025L, 2025S, 2026L)
+Planting assumed 0 days after 1 March / 1 October.
+Rainfall source: NASA POWER (gridded, about 50 km cells), so it shows the regional rain pattern, not rain at your plot.
+
+Yield spread (standard deviation): 1.36 sacks per acre
+rain_total: r = +0.18, Spearman = +0.08, R2 = 0.03, leave-one-out RMSE = 1.67
+rain_first60: r = +0.37, Spearman = +0.32, R2 = 0.14, leave-one-out RMSE = 1.71
+rain_mid: r = -0.03, Spearman = -0.06, R2 = 0.00, leave-one-out RMSE = 1.72
+longest_dry_spell_mid: r = +0.07, Spearman = +0.19, R2 = 0.00, leave-one-out RMSE = 1.57
+wet_days: r = +0.19, Spearman = +0.13, R2 = 0.04, leave-one-out RMSE = 1.54
+
+Strongest: rain_first60 (r = +0.37).
+Corrected p-value for the best of 5 rainfall numbers: 0.64 (below 0.05 would be a real signal; with about 10 seasons even that needs care).
+Leave-one-out RMSE close to the yield spread means the rainfall number does no better than guessing the average yield.

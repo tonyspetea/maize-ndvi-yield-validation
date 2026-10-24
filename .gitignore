@@ -1,0 +1,7 @@
+# Real plot outlines: never upload
+config_private.py
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

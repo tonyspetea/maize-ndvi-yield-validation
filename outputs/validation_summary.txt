@@ -1,0 +1,5 @@
+Seasons used: 11 (2021L, 2021S, 2022L, 2022S, 2023L, 2023S, 2024L, 2024S, 2025L, 2025S, 2026L)
+Long rains: 6 seasons, short rains: 5 seasons (pooled in one fit; analyse separately once there is enough data).
+peak_ndvi: r = -0.04, Spearman = 0.20, R2 = 0.00, leave-one-out RMSE = 1.88 (yield units)
+integrated_ndvi: r = 0.16, Spearman = 0.30, R2 = 0.02, leave-one-out RMSE = 1.65 (yield units)
+Best single metric in this sample: integrated_ndvi. With so few points this can change as years are added.
